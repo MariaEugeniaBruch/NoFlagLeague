@@ -1,0 +1,84 @@
+/*Header*/
+ 
+header {
+    background-color: $bg-color;
+    width: 100%;
+    margin: 0px;
+
+    .imagenLogo {
+        height: 25%;
+        width: 25%; }
+                
+    .bloque-menu {
+        align-items: flex-end;
+    }
+     
+    .menu {
+        display: inline;
+        margin: 10px;
+    }
+
+    #boton1 {
+        color: map-get($map,boton-1)
+    }
+    #boton2 {
+        color: map-get($map,boton-2)
+    }
+    #boton3 {
+        color: map-get($map,boton-3)
+    }
+    #boton4 {
+        color: map-get($map,boton-4)
+    }
+    
+    
+    
+}
+
+ 
+@media (max-width: 992px ) {
+    .header {
+        margin-bottom: 10px;
+    }
+   
+    .bloque-menu {
+        justify-content: center;
+       
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+/*Fin header*/
+
+
+
+/*Media queries*/
+
+@media (max-width: 768px ) {
+.header {
+    margin-bottom: 10px;
+}
+
+.bloque-menu {
+  justify-content: center;
+    margin-top: 10px;
+}
+
+}
+
+
+@media (max-width: 576px ) {
+.header {
+    margin-bottom: 10px;
+}
+
+.bloque-menu {
+   justify-content: center;
+    margin-top: 10px;
+}
+}

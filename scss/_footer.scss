@@ -1,0 +1,39 @@
+/*Footer*/
+ 
+footer {
+    width: 100%;
+    
+    .redes-conteiner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        .redes {
+            padding-top: 100px;
+        }
+         
+        .redes1:hover{
+            transform: scale(1.1,1.1);
+            transition: 0,5s;
+        }
+        .redes2:hover{
+            transform: scale(1.1,1.1);
+            transition: 0,5s;
+        }
+        .redes3:hover{
+            transform: scale(1.1,1.1);
+            transition: 0,5s;
+        }
+    }
+
+}
+ 
+
+
+ 
+ 
+
+ 
+/*fin transiciones*/
+ 
+/*Fin footer*/

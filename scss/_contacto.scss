@@ -1,0 +1,39 @@
+/* Contact form*/
+
+
+    .form-control {
+
+        @extend %fixture;
+    }
+
+
+        
+
+
+    
+
+
+.header {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+/*
+
+.contact_form {
+    display: flex;
+    justify-content: center;
+}
+.formularioh1 {
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+ 
+/*Fin contact form*/
+ 

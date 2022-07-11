@@ -1,0 +1,44 @@
+$bg-color: rgb(240, 240, 240);
+$fuente-principal: "Kdam Thmor Pro", sans-serif;
+$color-texto: rgb(16, 16, 43);
+
+
+ /* map */
+
+$map: (
+
+    boton-1: #229d47,
+    boton-2: #00120B,
+    boton-3: #374C75,
+    boton-4: #220C83,
+ ) ;
+
+
+
+ /* extend */
+ %fixture 
+ {
+
+        border: 2px solid #374C75;
+        width: 60%;
+        margin-left: 250px;
+        margin-right: 250px;
+}
+
+
+/* mixin */
+
+@mixin container($ancho, $alto, $color, $colorfuente) {
+    width: $ancho;
+    height: $alto;
+    background-color: $color;
+    color:$colorfuente;
+    font-size: 2rem;
+    border-radius: 5%;
+    text-align: center;
+    margin: 5px;
+    margin-left: 550px; 
+    margin-right: 50px;
+  } 
+
+
